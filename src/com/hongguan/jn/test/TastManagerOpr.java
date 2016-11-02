@@ -9,6 +9,7 @@ public class TastManagerOpr {
 		ArrayList user_task = new ArrayList();
 		secheduler(taskArr,taskArr.length,system_task,user_task);
 		System.out.println("system_task="+system_task+" user_task="+user_task);
+		System.out.println("OK111");
 	}
 	
 	static void secheduler(int[] task,int taskn,ArrayList a,ArrayList b){
